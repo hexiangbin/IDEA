@@ -1,0 +1,10 @@
+<templateSet group="user">
+  <template name="userDefine" value="*&#10; * @Param $param$&#10; * @throws $throws$&#10; * @return $return$&#10; **/" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="throws" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
